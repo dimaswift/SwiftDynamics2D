@@ -1,0 +1,137 @@
+{
+  "$type": "SwiftDynamics2D.Scene, Assembly-CSharp",
+  "name": "New Scene",
+  "states": {
+    "$type": "System.Collections.Generic.List`1[[SwiftDynamics2D.State, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$type": "SwiftDynamics2D.BodyBehaviourState, Assembly-CSharp",
+        "isKinematic": false,
+        "mass": 1.0,
+        "useAutoMass": false,
+        "density": 1.0,
+        "hasProceduralHinges": false,
+        "hingeStates": {
+          "$type": "System.Collections.Generic.List`1[[SwiftDynamics2D.HingeJointState, Assembly-CSharp]], mscorlib",
+          "$values": []
+        },
+        "localPosition": {
+          "$type": "SwiftDynamics2D.Vector3Mini, Assembly-CSharp",
+          "x": -7.23020124,
+          "y": 0.496347368,
+          "z": 1.5
+        },
+        "localEuler": {
+          "$type": "SwiftDynamics2D.Vector3Mini, Assembly-CSharp",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0587012544
+        },
+        "localScale": {
+          "$type": "SwiftDynamics2D.Vector3Mini, Assembly-CSharp",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pivot": {
+          "$type": "SwiftDynamics2D.Vector2Mini, Assembly-CSharp",
+          "x": 0.0,
+          "y": 0.0
+        },
+        "bounds": {
+          "$type": "SwiftDynamics2D.Vector2Mini, Assembly-CSharp",
+          "x": 1.0,
+          "y": 1.0
+        },
+        "parentID": -1,
+        "prefabID": 618549006,
+        "hasParent": false,
+        "width": 1,
+        "layerIndex": 0,
+        "instanceID": 734489901
+      },
+      {
+        "$type": "SwiftDynamics2D.BodyBehaviourState, Assembly-CSharp",
+        "isKinematic": false,
+        "mass": 1.0,
+        "useAutoMass": false,
+        "density": 1.0,
+        "hasProceduralHinges": false,
+        "hingeStates": {
+          "$type": "System.Collections.Generic.List`1[[SwiftDynamics2D.HingeJointState, Assembly-CSharp]], mscorlib",
+          "$values": []
+        },
+        "localPosition": {
+          "$type": "SwiftDynamics2D.Vector3Mini, Assembly-CSharp",
+          "x": -1.98330021,
+          "y": -0.4609084,
+          "z": 1.500001
+        },
+        "localEuler": {
+          "$type": "SwiftDynamics2D.Vector3Mini, Assembly-CSharp",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 6.31626463
+        },
+        "localScale": {
+          "$type": "SwiftDynamics2D.Vector3Mini, Assembly-CSharp",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pivot": {
+          "$type": "SwiftDynamics2D.Vector2Mini, Assembly-CSharp",
+          "x": -9.592755,
+          "y": 2.575092
+        },
+        "bounds": {
+          "$type": "SwiftDynamics2D.Vector2Mini, Assembly-CSharp",
+          "x": 10.0,
+          "y": 1.0
+        },
+        "parentID": -1,
+        "prefabID": 618549006,
+        "hasParent": false,
+        "width": 1,
+        "layerIndex": 0,
+        "instanceID": 838767488
+      }
+    ]
+  },
+  "layerManagerState": {
+    "$type": "SwiftDynamics2D.LayerManagerState, Assembly-CSharp",
+    "lines": {
+      "$type": "SwiftDynamics2D.LayerLine[], Assembly-CSharp",
+      "$values": [
+        {
+          "$type": "SwiftDynamics2D.LayerLine, Assembly-CSharp",
+          "index": 0,
+          "zPosition": 1.5,
+          "width": 1.0
+        },
+        {
+          "$type": "SwiftDynamics2D.LayerLine, Assembly-CSharp",
+          "index": 1,
+          "zPosition": 0.5,
+          "width": 1.0
+        },
+        {
+          "$type": "SwiftDynamics2D.LayerLine, Assembly-CSharp",
+          "index": 2,
+          "zPosition": -0.5,
+          "width": 1.0
+        },
+        {
+          "$type": "SwiftDynamics2D.LayerLine, Assembly-CSharp",
+          "index": 3,
+          "zPosition": -1.5,
+          "width": 1.0
+        }
+      ]
+    },
+    "layerCount": 4,
+    "layerWidth": 0.2,
+    "maxZPosition": 2.0
+  },
+  "instanceID": 220984315
+}
